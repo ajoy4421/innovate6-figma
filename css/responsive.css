@@ -176,7 +176,7 @@
 	/* == service == */
 	/* == impact == */
 	#impact {
-		padding: 50px 0;
+		padding: 50px 20px;
 		position: relative;
 	}
 	#impact .sec_hading h2 {
@@ -187,8 +187,7 @@
 	#impact .sec_hading p {
 		font-size: 16px;
 		line-height: 1.5;
-		margin-bottom: 40px;
-		padding: 0 20px;
+		padding-bottom: 40px;
 	}
 	.impact_item {
 		margin-bottom: 10px;
@@ -306,7 +305,7 @@
 	}
 	/* == blog == */
 	/* == footer == */
-	footer{
+	footer {
 		padding: 40px 10px;
 		text-align: center;
 	}
@@ -318,7 +317,7 @@
 		display: block;
 		margin-bottom: 20px;
 	}
-	.contact_item{
+	.contact_item {
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 30px;
@@ -327,7 +326,7 @@
 		margin: 0 auto;
 		margin-bottom: 10px;
 	}
-	.footer_content_wrapper{
+	.footer_content_wrapper {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -337,7 +336,7 @@
 		line-height: 1.2;
 		margin: 0 auto;
 	}
-	.quick_link_item{
+	.quick_link_item {
 		margin-bottom: 30px;
 	}
 	.quick_link_heading {
@@ -352,9 +351,9 @@
 	.copyright_part_wrapper {
 		justify-content: center;
 	}
-	.footer_content, .copy_right {
+	.footer_content,
+	.copy_right {
 		font-size: 16px;
-		
 	}
 	/* .footer_content {
 		margin-bottom: 10px;
@@ -662,7 +661,6 @@
 		padding-bottom: 20px;
 	}
 	/* == footer == */
-
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -941,7 +939,7 @@
 	.quick_link_heading {
 		padding-bottom: 20px;
 	}
-	.quick_link_list{
+	.quick_link_list {
 		row-gap: 10px;
 	}
 	/* == footer == */
@@ -1117,11 +1115,10 @@
 	.quick_link_heading {
 		padding-bottom: 20px;
 	}
-	.quick_link_list{
+	.quick_link_list {
 		row-gap: 10px;
 	}
 	/* == footer == */
-
 }
 /* ========================= device (lg 992 > 1200) ========================= */
 
@@ -1228,3 +1225,5 @@
 }
 /* ========================= device (xxl 1400 >>) ========================= */
 /* ======== responsive css ======== */
+
+/* ===== design by AJOY SAHA ===== */
