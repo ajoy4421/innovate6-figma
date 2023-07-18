@@ -1,7 +1,7 @@
 $(function () {
 	// ===== counter up operation =====
 	$(".counter").counterUp({
-		delay: 20,
+		delay: 200,
 		time: 2000,
 	});
 	// ===== counter up operation =====
@@ -35,7 +35,7 @@ $(function () {
 
 	// ===== preloader =====
     $(window).on("load", function(){
-        $("#preloader").delay(500).fadeOut(500);
+        $("#preloader").delay(400).fadeOut(400);
     })
     // ===== preloader =====
 
@@ -47,7 +47,7 @@ $(function () {
 // === aos js operation ===
 AOS.init({
 	delay: 500,
-	duration: 4000,
+	duration: 3000,
 	easing: 'linear',
 	once: true, 
 });
