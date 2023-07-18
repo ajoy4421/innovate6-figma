@@ -47,7 +47,7 @@ $(function () {
 // === aos js operation ===
 AOS.init({
 	delay: 500,
-	duration: 3000,
+	duration: 1000,
 	easing: 'linear',
 	once: true, 
 });
