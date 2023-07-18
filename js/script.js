@@ -15,7 +15,6 @@ $(function () {
 		prevArrow: ".prev_icon",
 		nextArrow: ".next_icon",
 		zIndex: 9999999,
-		
 	});
 
 	// ===== slick slider operation =====
@@ -34,27 +33,25 @@ $(function () {
 	// ===== fixed nav =====
 
 	// ===== preloader =====
-    $(window).on("load", function(){
-        $("#preloader").delay(400).fadeOut(400);
-    })
-    // ===== preloader =====
-
-
-
+	$(window).on("load", function () {
+		$("#preloader").delay(400).fadeOut(400);
+	});
+	// ===== preloader =====
 });
-
 
 // === aos js operation ===
 AOS.init({
-	delay: 500,
-	duration: 300,
-	easing: 'linear',
-	once: true, 
+	delay: 200,
+	duration: 400,
+	easing: "linear",
+	once: true,
+	offset: 120,
 });
 // === aos js operation ===
-
 
 // === wow js operation ===
 new WOW().init();
 
 // === wow js operation ===
+
+// ===== Designed by AJOY SAHA =====
